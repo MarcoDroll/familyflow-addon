@@ -2,13 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
-## [1.0.3] - 2024-11-24
+## [1.0.3] - 2025-11-24
 
 ### Fixed
 
 - Fixed data persistence - database now stored in `/config` which survives updates
 
-## [1.0.2] - 2024-11-24
+## [1.0.2] - 2025-11-24
 
 ### Fixed
 
@@ -21,14 +21,14 @@ All notable changes to this project will be documented in this file.
 - Simplified container startup script
 - Improved nginx configuration for ingress
 
-## [1.0.1] - 2024-11-24
+## [1.0.1] - 2025-11-24
 
 ### Fixed
 
 - Fixed container permissions for startup scripts
 - Fixed Unix line endings for shell scripts
 
-## [1.0.0] - 2024-11-24
+## [1.0.0] - 2025-11-24
 
 ### Added
 
