@@ -3,7 +3,7 @@ version: "1.0.0"
 slug: "familyflow"
 description: "Family task planner and reward system"
 url: "https://github.com/marcodroll/familyflow"
-image: "ghcr.io/marcodroll/familyflow/{arch}"
+image: "ghcr.io/marcodroll/familyflow:1.0.0"
 startup: "application"
 arch:
   - "amd64"
