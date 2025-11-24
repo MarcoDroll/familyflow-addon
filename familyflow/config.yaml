@@ -1,0 +1,25 @@
+name: FamilyFlow
+version: "1.0.0"
+slug: familyflow
+description: Family task planner and reward system for Home Assistant
+url: https://github.com/MarcoDroll/familyflow
+arch:
+  - amd64
+  - aarch64
+init: false
+startup: application
+boot: auto
+ingress: true
+ingress_port: 8099
+ingress_entry: /
+panel_icon: mdi:account-group
+panel_title: FamilyFlow
+map:
+  - addon_config:rw
+hassio_api: false
+homeassistant_api: false
+options:
+  log_level: info
+schema:
+  log_level: list(debug|info|warning|error)
+image: ghcr.io/marcodroll/familyflow-addon-{arch}
