@@ -4,7 +4,6 @@ slug: familyflow
 description: Family task planner and reward system for Home Assistant
 url: https://github.com/MarcoDroll/familyflow
 arch:
-  - amd64
   - aarch64
 init: false
 startup: application
