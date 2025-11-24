@@ -1,0 +1,21 @@
+name: "FamilyFlow"
+version: "1.0.0"
+slug: "familyflow"
+description: "Family task planner and reward system"
+url: "https://github.com/marcodroll/familyflow"
+image: "ghcr.io/marcodroll/familyflow/{arch}-familyflow"
+startup: "application"
+arch:
+  - "amd64"
+  - "aarch64"
+init: false
+map:
+  - "share:rw"
+ingress: true
+ingress_port: 3000
+ingress_entry: "/"
+panel_icon: "mdi:family-tree"
+hassio_api: true
+homeassistant_api: true
+options: {}
+schema: {}
