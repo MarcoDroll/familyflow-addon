@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.5] - 2025-11-24
+
+### Added
+
+- **Mobile touch support** - Tap task cards to reveal action buttons for changing status
+- **Clickable URLs** - Links in task descriptions are now clickable and open in new tab
+
+### Fixed
+
+- Task status can now be changed on mobile/touch devices (previously only drag-drop worked)
+
 ## [1.0.4] - 2025-11-24
 
 ### Added
