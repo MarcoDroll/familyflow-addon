@@ -1,5 +1,5 @@
 name: FamilyFlow
-version: "1.0.3"
+version: "1.0.4"
 slug: familyflow
 description: Family task planner and reward system for Home Assistant
 url: https://github.com/MarcoDroll/familyflow
@@ -15,8 +15,10 @@ panel_icon: mdi:account-group
 panel_title: FamilyFlow
 map:
   - addon_config:rw
-hassio_api: false
+hassio_api: true
 homeassistant_api: false
+services:
+  - mqtt:want
 options:
   log_level: info
 schema:

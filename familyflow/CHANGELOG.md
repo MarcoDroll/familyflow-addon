@@ -2,6 +2,24 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.4] - 2025-11-24
+
+### Added
+
+- **MQTT Integration for Home Assistant entities**
+  - Exposes task status per child as Home Assistant sensors
+  - `sensor.familyflow_{child}_tasks` - Shows completed/total tasks (e.g., "3/5")
+  - `binary_sensor.familyflow_{child}_all_done` - ON when all tasks completed
+  - `sensor.familyflow_{child}_in_progress` - Number of tasks in progress
+  - `sensor.familyflow_{child}_todo` - Number of pending tasks
+  - Detailed attributes with task list and completion percentage
+  - Auto-discovery via MQTT - entities appear automatically in Home Assistant
+  - Real-time updates when tasks are changed
+
+### Changed
+
+- Requires Mosquitto MQTT broker add-on for entity integration (optional, add-on works without it)
+
 ## [1.0.3] - 2025-11-24
 
 ### Fixed
