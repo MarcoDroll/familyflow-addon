@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.0.17] - 2025-11-25
+
+### Changed
+
+- Automated release
+
 ## [1.0.16] - 2025-11-25
 
 ### Changed
