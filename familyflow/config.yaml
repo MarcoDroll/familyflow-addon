@@ -13,6 +13,7 @@ ingress_port: 8099
 ingress_entry: /
 panel_icon: mdi:account-group
 panel_title: FamilyFlow
+panel_admin: false
 map:
   - addon_config:rw
 hassio_api: true
