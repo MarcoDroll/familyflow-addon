@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.0.1] - 2025-11-25
+
+### Fixed
+
+- Fixed API calls failing with 404 when accessed via Nabu Casa remote access
+- API now uses relative paths for proper Home Assistant ingress compatibility
+
 ## [1.0.17] - 2025-11-25
 
 ### Changed
