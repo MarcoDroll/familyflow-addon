@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.0.23] - 2025-11-26
+
+### Changed
+
+- Improve automated release: extract real commit messages and add git tagging (#4)
+
 ## [1.0.22] - 2025-11-26
 
 ### Changed
